@@ -1,9 +1,16 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
+		"path": "pages/index",
 		"style": {
 			"navigationBarTitleText": "uni-app"
 		}
+	}],
+	
+	"subPackages": [{
+		"root": "content",
+		"pages": [{
+			"path": "home/index"
+		}, ]
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
